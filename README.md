@@ -4,7 +4,7 @@ Please find the installation and usage instructions in the documentation located
 
 WenHsin Linda Jen 2015
 
-Modifications introduced by Charlie Martínez in August 2023:
+## Modifications introduced by Charlie Martínez in August 2023:
 
 To create a Quirinux (and Debian 12) compatible .deb package I have modified the directory tree structure.
 
@@ -14,23 +14,23 @@ I have also changed the color of the icon, because it hardly contrasted in light
 
 I also added autostart to /etc/xdg
 
-# Dependences:
+## Dependences:
 
 python3-full, gir1.2-appindicator3-0.1, python3-setuptools
 
-# Documentation:
+## Documentation:
 
 To work, this program needs the following dependencies:
 python3-full, gir1.2-appindicator3-0.1, python3-setuptools
 
-# Instalación / Release:
+## Instalación / Release:
 I accompany a successfully tested release on Debian 12, Sunday August 9, 2023.
 
 To install on Debian 12, just run:
 
 'apt install ./ptxconf_2.7_all.deb'
 
-# Also available in the Quirinux repositories:
+## Also available in the Quirinux repositories:
 
 'apt-get update'
 'apt-get install wget'
