@@ -24,7 +24,7 @@ class PTXConfUI(gtk.Window):
     def __init__(self):
         super().__init__()
 
-        self.icon_path = realpath("icon/iconStyle03_256.png")
+        self.icon_path = realpath("/opt/ptxconf/src/ptxconf/icon/iconStyle03_256.png")
         self.set_icon_from_file("/opt/ptxconf/src/ptxconf/icon/iconStyle03_256.png")
 
         # create systray interface
